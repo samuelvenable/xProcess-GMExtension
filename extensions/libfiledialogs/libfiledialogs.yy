@@ -71,8 +71,6 @@
       ],"origname":"","ProxyFiles":[
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.dylib","TargetMask":1,},
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.so","TargetMask":7,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm.so","TargetMask":7,},
-        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm64.so","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.zip","constants":[],"copyToTargets":0,"filename":"libfiledialogs.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.gml","constants":[],"copyToTargets":-1,"filename":"libfiledialogs.gml","final":"","functions":[
@@ -128,7 +126,9 @@
         {"name":"GetNumber","path":"extensions/libfiledialogs/libfiledialogs.yy",},
         {"name":"_DialogInitialize","path":"extensions/libfiledialogs/libfiledialogs.yy",},
       ],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"SDL2.dll","constants":[],"copyToTargets":64,"filename":"SDL2.dll","final":"","functions":[],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"SDL3.dll","constants":[],"copyToTargets":192,"filename":"SDL3.dll","final":"","functions":[],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libSDL3.so.0","TargetMask":7,},
+      ],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
   "hasConvertedCodeInjection": true,
