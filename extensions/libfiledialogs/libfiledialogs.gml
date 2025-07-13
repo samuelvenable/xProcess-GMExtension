@@ -1,4 +1,5 @@
 #define _DialogInitialize
+	EnvironmentSetVariable("IMGUI_DIALOG_PARENT", string(int64(window_handle())));
 	EnvironmentSetVariable("IMGUI_FONT_PATH", working_directory + string_lower("Fonts"));
 	_IfdLoadFonts();
 

@@ -5,6 +5,9 @@
 x = room_width / 2;
 y = room_height / 2;
 
+// Allow InputBox Dialogs to have a Cancel Button
+EnvironmentSetVariable("IMGUI_DIALOG_CANCELABLE", string(1));
+
 // Select a Custom Theme for All Dialogs 
 // Classic=-1, Dark=0, Light=1, Custom=2
 // Example themes -1 to 1 are from ImGui
