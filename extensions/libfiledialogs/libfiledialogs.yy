@@ -130,7 +130,6 @@
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libSDL3.dylib","TargetMask":1,},
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libSDL3.so.0","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libiconv.dylib","constants":[],"copyToTargets":2,"filename":"libiconv.dylib","final":"","functions":[],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
   "hasConvertedCodeInjection": true,
