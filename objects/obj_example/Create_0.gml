@@ -32,7 +32,8 @@ EnvironmentSetVariable("IMGUI_POPS_COLOR_1", string(0.07));
 EnvironmentSetVariable("IMGUI_POPS_COLOR_2", string(0.07));
 
 // Other various settings for dialogs
-environment_set_variable("IMGUI_FONT_PATH", working_directory + "fonts");
-environment_set_variable("IMGUI_FONT_SIZE", string(20));
+EnvironmentSetVariable("IMGUI_FONT_PATH", working_directory + "fonts");
+EnvironmentSetVariable("IMGUI_FONT_SIZE", string(20));
 
 pid = 0;
+
