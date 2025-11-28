@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"libdisableclose","order":1,"path":"extensions/libdisableclose/libdisableclose.yy",},
+  ],
 }
