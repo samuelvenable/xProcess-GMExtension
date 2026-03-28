@@ -1,6 +1,6 @@
 #define _DialogInitialize
-	EnvironmentSetVariable("IMGUI_DIALOG_PARENT", string(int64(window_handle())));
-	EnvironmentSetVariable("IMGUI_FONT_PATH", working_directory + string_lower("Fonts"));
+	environment_set_variable("IMGUI_DIALOG_PARENT", string(int64(window_handle())));
+	environment_set_variable("IMGUI_FONT_PATH", working_directory + string_lower("Fonts"));
 	_IfdLoadFonts();
 
 #define ShowMessage
@@ -9,13 +9,13 @@
 
 #define ShowQuestion
 	res = _ShowQuestion(string(argument0));
-	return ((EnvironmentGetVariable("IMGUI_YES") != "") ? (res == EnvironmentGetVariable("IMGUI_YES")) : (res == "Yes"));
+	return ((environment_get_variable("IMGUI_YES") != "") ? (res == environment_get_variable("IMGUI_YES")) : (res == "Yes"));
 
 #define ShowQuestionExt
 	res = _ShowQuestionExt(string(argument0));
-	if ((EnvironmentGetVariable("IMGUI_YES") != "") ? (res == EnvironmentGetVariable("IMGUI_YES")) : (res == "Yes")) {
+	if ((environment_get_variable("IMGUI_YES") != "") ? (res == environment_get_variable("IMGUI_YES")) : (res == "Yes")) {
 		return 1;
-	} else if ((EnvironmentGetVariable("IMGUI_NO") != "") ? (res == EnvironmentGetVariable("IMGUI_NO")) : (res == "No")) {
+	} else if ((environment_get_variable("IMGUI_NO") != "") ? (res == environment_get_variable("IMGUI_NO")) : (res == "No")) {
 		return 0;
 	}
 	return -1;
