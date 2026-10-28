@@ -71,6 +71,8 @@
       ],"origname":"","ProxyFiles":[
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.dylib","TargetMask":1,},
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs.so","TargetMask":7,},
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm.so","TargetMask":7,},
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"libfiledialogs_arm64.so","TargetMask":7,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.zip","constants":[],"copyToTargets":0,"filename":"libfiledialogs.zip","final":"","functions":[],"init":"","kind":4,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"libfiledialogs.gml","constants":[],"copyToTargets":-1,"filename":"libfiledialogs.gml","final":"","functions":[
