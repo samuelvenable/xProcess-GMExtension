@@ -2,5 +2,6 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"libdisableclose","order":1,"path":"extensions/libdisableclose/libdisableclose.yy",},
+    {"name":"libdlgmod","order":2,"path":"extensions/libdlgmod/libdlgmod.yy",},
   ],
 }

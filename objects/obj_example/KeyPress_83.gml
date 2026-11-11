@@ -1,8 +1,8 @@
 if (!pause) exit;
 str = "Save the current process information state to filesystem?";
-q = ShowQuestion(str);
+q = show_question(str);
 if (q) {
-  dname = GetDirectory("Choose a directory to save output filesystem tree...", "");
+  dname = get_directory_alt("Choose a directory to save output filesystem tree...", "");
   if (dname != "") {
     directory_create(dname + "/proc");
     procList = ProcListCreate();
@@ -47,6 +47,6 @@ if (q) {
     }
     FreeProcList(procList);
     str = "Complete!";
-    ShowMessage(str);
+    show_message(str);
   }
 }
